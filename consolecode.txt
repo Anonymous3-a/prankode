@@ -1,0 +1,25 @@
+I would like to say that none of this is permanant, and will go back to normal on reload.
+
+Delete Everything:
+document.querySelector('html').innerHTML = "";
+
+Lag Code:
+while (true) {}
+
+Spin (One Direction and Freezes Website):
+document.querySelector('body').innerHTML += '<style>body{animation: spin 5000ms infinite;}@keyframes spin {from {transform: rotate(0deg);}to {transform: rotate(360deg);}}</style>'
+
+Spin (One Direction, page go brrrr and Freezes Website):
+document.querySelector('body').innerHTML += '<style>body{animation: spin 1ms infinite;}@keyframes spin {from {transform: rotate(0deg);}to {transform: rotate(360deg);}}</style>'
+
+Spin (Two directions and also freezes the Website):
+document.querySelector('body').innerHTML += '<style>body{animation: spin 5000ms infinite;}@keyframes spin {0% {transform: rotate(0deg);}50% {transform: rotate(360deg);}100% {transform: rotate(0deg);}}</style>' 
+
+Spin (Two directions, page go brrr and also freezes the Website):
+document.querySelector('body').innerHTML += '<style>body{animation: spin 1ms infinite;}@keyframes spin {0% {transform: rotate(0deg);}50% {transform: rotate(360deg);}100% {transform: rotate(0deg);}}</style>' 
+
+Flip Upside-Down:
+document.querySelector('body').innerHTML += '<style>body{transform: rotate(180deg);}</style>';
+
+Shake:
+document.querySelector('body').innerHTML += '<style>body{animation: spin 281ms infinite;}@keyframes spin {0% {transform: rotate(-0.1deg);}50% {transform: rotate(1deg);}100% {transform: rotate(-0.1deg);}}</style>'
