@@ -6,16 +6,16 @@ document.querySelector('html').innerHTML = "";
 Lag Code:
 while (true) {}
 
-Spin (One Direction and Freezes Website):
-document.querySelector('body').innerHTML += '<style>body{animation: spin 5000ms infinite;}@keyframes spin {from {transform: rotate(0deg);}to {transform: rotate(360deg);}}</style>'
+Spin (One Direction):
+document.querySelector('body').innerHTML += '<style>body{animation: spin 5s infinite;}@keyframes spin {from {transform: rotate(0deg);}to {transform: rotate(360deg);}}</style>'
 
-Spin (One Direction, page go brrrr and Freezes Website):
+Spin (One Direction but epilepsy):
 document.querySelector('body').innerHTML += '<style>body{animation: spin 1ms infinite;}@keyframes spin {from {transform: rotate(0deg);}to {transform: rotate(360deg);}}</style>'
 
-Spin (Two directions and also freezes the Website):
-document.querySelector('body').innerHTML += '<style>body{animation: spin 5000ms infinite;}@keyframes spin {0% {transform: rotate(0deg);}50% {transform: rotate(360deg);}100% {transform: rotate(0deg);}}</style>' 
+Spin (Two directions):
+document.querySelector('body').innerHTML += '<style>body{animation: spin 5s infinite;}@keyframes spin {0% {transform: rotate(0deg);}50% {transform: rotate(360deg);}100% {transform: rotate(0deg);}}</style>' 
 
-Spin (Two directions, page go brrr and also freezes the Website):
+Spin (Two directions but epilepsy):
 document.querySelector('body').innerHTML += '<style>body{animation: spin 1ms infinite;}@keyframes spin {0% {transform: rotate(0deg);}50% {transform: rotate(360deg);}100% {transform: rotate(0deg);}}</style>' 
 
 Flip Upside-Down:
