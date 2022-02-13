@@ -4,7 +4,7 @@
 document.querySelector('html').innerHTML = "";
 
 // Lag Code:
-while (true) {} // DO NOT RUN THIS IN YOUR WEB SERVER OR ELSE IT WILL PROBABLY CRASH AND BECOME AS SLOW AS 10 DDOS
+while (true) {} // DO NOT RUN THIS IN YOUR WEB SERVER OR ELSE IT WILL PROBABLY CRASH AND BECOME AS SLOW AS 10 DDOS (Only if it is server-side)
 
 // Spin (One Direction):
 document.querySelector('body').innerHTML += '<style>body{animation: spin 5s infinite;}@keyframes spin {from {transform: rotate(0deg);}to {transform: rotate(360deg);}}</style>';
