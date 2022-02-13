@@ -23,3 +23,6 @@ document.querySelector('body').innerHTML += '<style>body{transform: rotate(180de
 
 // Shake:
 document.querySelector('body').innerHTML += '<style>body{animation: spin 281ms infinite;}@keyframes spin {0% {transform: rotate(-0.1deg);}50% {transform: rotate(1deg);}100% {transform: rotate(-0.1deg);}}</style>';
+
+// Trip Mode:
+document.querySelector('body').innerHTML += '<style>body{animation: trip 5s infinite;}@keyframes trip {0% {filter: hue-rotate(0deg);}100% {filter: hue-rotate(360deg);}}</style>';
